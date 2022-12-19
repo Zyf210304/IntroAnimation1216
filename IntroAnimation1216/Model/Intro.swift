@@ -14,7 +14,14 @@ struct Intro: Identifiable {
 }
 
 var intros: [Intro] = [
-    .init(imageName: "Image 1", title: "Relax"),
-    .init(imageName: "Image 2", title: "Care"),
-    .init(imageName: "Image 3", title: "Mood Dairy")
+    .init(imageName: "image 1", title: "Relax"),
+    .init(imageName: "image 2", title: "Care"),
+    .init(imageName: "image 3", title: "Mood Dairy")
 ]
+
+
+let sansBold = "WorkSans-Bold"
+let sansSemiBold = "WorkSans-SemiBold"
+let sansRegular = "WorkSans-Regular"
+
+let dummyText = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. \nLorem Ipsum is dummy text."
